@@ -9,8 +9,10 @@ class ResultActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_result)
 
-        val nomeDigitado = intent.getStringArrayExtra("NOME_DIGITADO")
+        val nomeDigitado = intent.getStringExtra("NOME_DIGITADO")
+
         val tvResultado = findViewById<TextView>(R.id.tvResultado)
+
         tvResultado.text = nomeDigitado.toString()
     }
 }

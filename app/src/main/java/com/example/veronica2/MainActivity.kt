@@ -23,6 +23,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 etNome.error = getString(R.string.type_your_name)
             }
+        }
 
             btEnviar2.setOnClickListener {
                 if (etNome.text.isNotBlank()) {
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
                     etNome.error = getString(R.string.type_your_name)
                 }
             }
+    }
 
     }
-    }
-}
+
