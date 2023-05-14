@@ -5,4 +5,5 @@
     <string name="type_your_name">Digite seu Nome...</string>
     <string name="send">Enviar</string>
     <string name="hello_name">Olá,%1$s!</string>
+    <string name="send_to_result_screen">Enviar Para Tela de Resultados</string>
 </resources>
